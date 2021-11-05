@@ -1,0 +1,492 @@
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:656478,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:260231,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:347952,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:222161,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:124816,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:499153,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:665404,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:674516,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:713413,ejercicio:2009} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:788646,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:818269,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:640512,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:729597,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:291034,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:496865,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:865354,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:552758,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:94082,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:309351,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:92402,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:498532,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:277120,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:55393,ejercicio:2012} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:348660,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:252291,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:313036,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:746415,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:644068,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:318805,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:96392,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:161590,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:373935,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:264847,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:939943,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:856154,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:470263,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:814232,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:346559,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:280555,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:668722,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:506293,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:592099,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:333114,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:220141,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:994789,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:836150,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:372190,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:965509,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:68279,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:490905,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:839695,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:82377,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:618632,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:507763,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:520955,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:308330,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:238665,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:929298,ejercicio:2002} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:672250,ejercicio:2011} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:144255,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:779127,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:811096,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:506880,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:741720,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:85252,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:826495,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:830371,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:770488,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:447760,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:438691,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:765763,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:597407,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:168160,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:70421,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:652502,ejercicio:2014} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:963926,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:414320,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:515111,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:909301,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:449830,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:242430,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:883559,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:59691,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:925884,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:397277,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:484206,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:938993,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:769285,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:230585,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:349505,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:718134,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:426393,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:497378,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:454517,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:656176,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:659805,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:134438,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:334068,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:976534,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:64746,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:293647,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:406174,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:914316,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:169615,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:546300,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:612258,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:160548,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:521415,ejercicio:2020} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:827551,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:920822,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:17027,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:610826,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:710411,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:633784,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:759898,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:993352,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:720856,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:47453,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:983755,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:419001,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:921026,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:424895,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:45777,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:692035,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:628677,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:656702,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:900437,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:846171,ejercicio:2002} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:966967,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:813530,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:79709,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:907901,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:729618,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:776118,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:317973,ejercicio:2004} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:625011,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:763909,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:659042,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:719443,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:651854,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:919650,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:114707,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:27189,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:780296,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:417010,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:617114,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:508833,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:704557,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:719128,ejercicio:2011} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:895746,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:591924,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:501495,ejercicio:2015} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:133271,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:140573,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:287659,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:212803,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:234777,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:690383,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:591401,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:794625,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:53210,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:181003,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:911886,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:746394,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:411704,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:153102,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:51831,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:278279,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:205624,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:649717,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:965291,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:259851,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:303456,ejercicio:2013} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:972318,ejercicio:2004} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:84163,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:543574,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:724523,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:883101,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:768227,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:163078,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:322920,ejercicio:2020} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:167060,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:890994,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:954440,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:874300,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:151751,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:883570,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:857705,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:286418,ejercicio:2013} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:891657,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:839095,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:486480,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:367507,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:486056,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:461989,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:352507,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:976042,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:276679,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:910581,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:714888,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:966296,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:705731,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:755706,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:195506,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:689694,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:862239,ejercicio:2015} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:959432,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:424682,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:260154,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:47489,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:756447,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:829204,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:49339,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:608298,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:909568,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:236440,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:385394,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:881659,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:693900,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:14415,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:951132,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:435219,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:38764,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:779447,ejercicio:2014} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:880051,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:986259,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:596276,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:512715,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:741720,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:947474,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:846915,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:183466,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:968752,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:77823,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:728009,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:841003,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:676167,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:953113,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:823388,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:45968,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:846957,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:691407,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:291540,ejercicio:2013} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:144117,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:569679,ejercicio:2004} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:378687,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:102167,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:277456,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:275098,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:53864,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:572160,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:241157,ejercicio:2008} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:487122,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:248146,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:865737,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:346577,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:550916,ejercicio:2012} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:708316,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:404435,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:229830,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:16383,ejercicio:2015} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:671182,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:359847,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:593715,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:746481,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:264933,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:428686,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:707033,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:139946,ejercicio:2004} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:825015,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:194850,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:62758,ejercicio:2005} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:422151,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:695794,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:62873,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:620185,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:367053,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:531703,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:997320,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:797753,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:163255,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:432676,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:462304,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:501971,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:223355,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:420207,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:530184,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:11633,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:342925,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:236995,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:308382,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:577264,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:789217,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:530967,ejercicio:2013} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:75412,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:83135,ejercicio:2010} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:663536,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:731726,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:362380,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:722252,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:997989,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:318641,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:259869,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:907547,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:182575,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:594602,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:267777,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:821659,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:24951,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:452315,ejercicio:2012} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:35049,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:204801,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:495023,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:949246,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:90776,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:543482,ejercicio:2011} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:739647,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:256516,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:740748,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:842146,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:558675,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:495119,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:39056,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:673403,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:539893,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:342660,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:45545,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:657435,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:356134,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:482399,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:547419,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:742773,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:991214,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:897083,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:90122,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:476795,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:862180,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:341647,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:220219,ejercicio:2020} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:239525,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:176198,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:104139,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:788219,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:865812,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:292326,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:471978,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:23612,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:410164,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:956037,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:330680,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:612386,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:150576,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:632812,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:216053,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:145606,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:180812,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:633796,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:351690,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:561419,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:272359,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:549471,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:433865,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:348798,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:401148,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:759193,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:91770,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:363399,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:325939,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:596416,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:876476,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:891280,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:118821,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:913956,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:100494,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:687251,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:130343,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:494855,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:125799,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:976146,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:228142,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:712326,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:10862,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:89123,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:927208,ejercicio:2006} 
+]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:718936,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:744568,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:71318,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:499693,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:289819,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:228152,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:539728,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:496607,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:878224,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:673327,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:172514,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:689282,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:554760,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:317667,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:828420,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:806494,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:217428,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:571300,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:732603,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:755220,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:421485,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:269374,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:319159,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:902274,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:386211,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:311239,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:417078,ejercicio:2008} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:329844,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:754793,ejercicio:2005} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:150523,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:770814,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:253297,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:315607,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:644023,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:99124,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:562928,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:693358,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:987098,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:433355,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:765100,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:78584,ejercicio:2020} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:108956,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:34598,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:431789,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:23467,ejercicio:2006} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:722572,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:709948,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:818258,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:215237,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:683448,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:235482,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:845551,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:747345,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:292082,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:91179,ejercicio:2016} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:897936,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:960025,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:595644,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:755001,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:874342,ejercicio:2003} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:876760,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Mario Jimenez López'}) MERGE(n:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:472378,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:883661,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:840062,ejercicio:2010} ]->(n) return r
+MERGE(p:Persona {nombre:'Marta Janeli Sabina'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:214434,ejercicio:2011} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:211163,ejercicio:2004} ]->(n) return r
+MERGE(p:Persona {nombre:'Carmen Muhech Vazquez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:600665,ejercicio:2002} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:711978,ejercicio:2015} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:323269,ejercicio:2021} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:980109,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Melissa Gómez Salas'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:471264,ejercicio:2019} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:316302,ejercicio:2014} ]->(n) return r
+MERGE(p:Persona {nombre:'Ricardo Montañéz Emerson'}) MERGE(n:Persona {nombre:'Mario Jimenez López'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:780285,ejercicio:2009} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:571352,ejercicio:2013} ]->(n) return r
+MERGE(p:Persona {nombre:'Melissa Gómez Salas'}) MERGE(n:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:46014,ejercicio:2017} ]->(n) return r
+MERGE(p:Persona {nombre:'Sebastian Ebram Colim'}) MERGE(n:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:364014,ejercicio:2012} ]->(n) return r
+MERGE(p:Persona {nombre:'Juan Gómez Rosocat'}) MERGE(n:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:28413,ejercicio:2018} ]->(n) return r
+MERGE(p:Persona {nombre:'Francisco Ortega Ávila'}) MERGE(n:Persona {nombre:'Juan Manuel Pérez Padilla'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:230169,ejercicio:2007} ]->(n) return r
+MERGE(p:Persona {nombre:'Jesus Gómez Silva Chávez'}) MERGE(n:Persona {nombre:'Marta Janeli Sabina'}) MERGE(p)-[r:TRANSFERENCIA {cantidad:798947,ejercicio:2010} ]->(n) return r
